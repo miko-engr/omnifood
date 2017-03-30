@@ -137,7 +137,6 @@ h2:after {
 /* Header */
 /* ---------------------------- */
 
-
 .hero-text-box {
     position: absolute;
     width: 1140px;
@@ -185,4 +184,48 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
     transition: border-bottom 0.2s;
+}
+
+/* ---------------------------- */
+/* Features */
+/* ---------------------------- */
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+/* ---------------------------- */
+/* Meals */
+/* ---------------------------- */
+.section-meals {
+    padding: 0;
+}
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
 }
