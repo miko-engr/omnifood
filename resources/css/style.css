@@ -242,6 +242,19 @@ header {
     transition: border-bottom 0.2s;
 }
 
+/* Mobile Navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 3px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: white;
+}
+
 /* Sticky Navi */
 .sticky {
     position: fixed;
@@ -263,7 +276,7 @@ header {
 
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
-
+.sticky .mobile-nav-icon i { color: #555; }
 
 /* ---------------------------- */
 /* Features */
